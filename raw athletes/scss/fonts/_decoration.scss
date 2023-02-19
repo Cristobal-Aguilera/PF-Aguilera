@@ -1,0 +1,9 @@
+.navbar-brand{
+    font-family: Nosifer;
+}
+.fa-solid{ 
+    color: map-get($color_palette,primary);
+}
+.bg-color-black{
+    background: map-get($color_palette,secondary);
+}

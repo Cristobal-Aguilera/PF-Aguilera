@@ -1,0 +1,67 @@
+main{
+    section{
+        nav{
+            ul{
+                display: flex;
+                li{
+                    list-style: none;
+                    font-family: Orbitron;
+                    font-style: oblique;
+                    font-size: 20px;
+                    padding: 20px;
+                    text-decoration: none;
+                }
+            
+                a{
+                    text-decoration: none;
+                    color: black;
+                }            
+            }
+        }
+    }
+}
+.tutorial{
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    padding-top: 45%;
+}
+.responsive_iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.margen{
+    margin: 40px;
+}
+.margenChico{
+    margin: 16px;
+}
+.cleanList{
+    list-style: none;
+}
+.tutorial_list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+}
+.separation{
+    height: 28px;
+}
+.bigger_separation{
+    height: 15rem;
+}
+.text_padding{
+    padding: 3rem;
+}
+.aboutUsCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

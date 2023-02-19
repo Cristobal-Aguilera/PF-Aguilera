@@ -1,0 +1,52 @@
+@media(max-width:576px){
+    .indexCards{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .margen{
+        margin: 0px;
+    }
+    .carousel{
+        width: 100%;
+    }
+    footer{
+        width: 50vh;
+    }
+    .margenChico{
+        margin: auto;
+    }
+    .aboutUsCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10%;
+    }
+    .marginLeft{
+        margin-left: 4rem;
+    }
+    .tutorial{
+        width: 100%;
+        padding-top: 75%;
+    }
+    .logoHeader{
+        zoom:10%;
+        height:0px;
+        width: 0px;
+    }
+    .contactOrder{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .productsOrder2{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .text_padding{
+        padding: 0rem;
+    }
+    .bigger_separation{
+        height: 5rem;
+    }
+}

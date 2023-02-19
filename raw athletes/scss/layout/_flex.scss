@@ -1,0 +1,28 @@
+.flexIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tutorial_main{
+    display: flex;
+    flex-direction: column;
+}
+.contactOrder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+.flexMain{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.productsOrder2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}

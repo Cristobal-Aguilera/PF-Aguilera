@@ -1,0 +1,21 @@
+.footer_container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10%
+}
+.responsive_footer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/*colocar iconos del footer centrados*/ 
+.footer_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

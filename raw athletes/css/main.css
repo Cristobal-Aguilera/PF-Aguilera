@@ -1,0 +1,243 @@
+.fontOrbitron {
+  font-family: Orbitron;
+}
+
+.fontsize {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: Nosifer;
+}
+
+.fa-solid {
+  color: black;
+}
+
+.bg-color-black {
+  background: white;
+}
+
+.card {
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.indexCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 6rem;
+}
+
+.carousel {
+  width: 80%;
+}
+
+.icon_separation {
+  width: 10px;
+  height: 10px;
+}
+
+.logoHeader {
+  zoom: 10%;
+}
+
+.bordesRedondeados {
+  border-radius: 10%;
+}
+
+.flexIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tutorial_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactOrder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+
+.flexMain {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.productsOrder2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+@media (max-width: 576px) {
+  .indexCards {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .margen {
+    margin: 0px;
+  }
+  .carousel {
+    width: 100%;
+  }
+  footer {
+    width: 50vh;
+  }
+  .margenChico {
+    margin: auto;
+  }
+  .aboutUsCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+  }
+  .marginLeft {
+    margin-left: 4rem;
+  }
+  .tutorial {
+    width: 100%;
+    padding-top: 75%;
+  }
+  .logoHeader {
+    zoom: 10%;
+    height: 0px;
+    width: 0px;
+  }
+  .contactOrder {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .productsOrder2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .text_padding {
+    padding: 0rem;
+  }
+  .bigger_separation {
+    height: 5rem;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main section nav ul {
+  display: flex;
+}
+main section nav ul li {
+  list-style: none;
+  font-family: Orbitron;
+  font-style: oblique;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+main section nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.tutorial {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  padding-top: 45%;
+}
+
+.responsive_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.margen {
+  margin: 40px;
+}
+
+.margenChico {
+  margin: 16px;
+}
+
+.cleanList {
+  list-style: none;
+}
+
+.tutorial_list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.separation {
+  height: 28px;
+}
+
+.bigger_separation {
+  height: 15rem;
+}
+
+.text_padding {
+  padding: 3rem;
+}
+
+.aboutUsCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.responsive_footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*colocar iconos del footer centrados*/
+.footer_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
